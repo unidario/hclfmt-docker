@@ -23,5 +23,5 @@ docker build -t hclfmt:latest .
 ```
 
 
-[1]: https://github.com/fatih/hclfmt/blob/master/README.md
+[1]: https://github.com/fatih/hclfmt/
 [2]: https://github.com/fatih
