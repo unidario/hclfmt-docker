@@ -1,8 +1,8 @@
-FROM golang:1.12.5-alpine3.9	as build
+FROM golang:1.12.5-alpine3.9 as build
 LABEL maintainer=dario.segger@trivago.com
 
 RUN apk add --no-cache git mercurial \
-	&& go get github.com/fatih/hclfmt
+    && go get github.com/fatih/hclfmt
 
 ############################
 
